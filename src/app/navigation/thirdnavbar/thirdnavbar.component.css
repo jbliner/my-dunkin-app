@@ -1,0 +1,18 @@
+@font-face {
+    font-family: dunkinBold;
+    src: url(src/RockoFLF/RockoUltraFLF-Bold.ttf);
+  }
+
+@font-face {
+    font-family: dunkinStandard;
+    src: url(src/RockoFLF/RockoFLF.ttf);
+}
+
+body{
+    background-color: rgb(200, 54, 98);
+    padding: 5px;
+    padding-top: 10px;
+    text-align: center;
+    font-family:'dunkinStandard';
+    color: white;
+}
