@@ -1,0 +1,28 @@
+@font-face {
+    font-family: dunkinBold;
+    src: url(src/RockoFLF/RockoUltraFLF-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: dunkinStandard;
+    src: url(src/RockoFLF/RockoFLF.ttf);
+  }
+
+  .head1{
+    font-family: 'dunkinBold';
+    color: rgb(239, 106, 0);
+  }
+
+  .head2{
+    font-family: 'dunkinBold';
+    color: rgb(200, 54, 98);
+  }
+
+  .head3{
+      font-family: 'dunkinStandard';
+  }
+
+  .card{
+      background-image: url(https://www.dunkindonuts.com/content/dam/dd/img/rebranding/homepage/Bring%20on%20the%20Perks%201440x225.png);
+
+  }

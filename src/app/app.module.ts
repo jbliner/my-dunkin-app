@@ -6,14 +6,20 @@ import { AppComponent } from './app.component';
 import { TopnavbarComponent } from './navigation/topnavbar/topnavbar.component';
 import { SecondnavbarComponent } from './navigation/secondnavbar/secondnavbar.component';
 import { ThirdnavbarComponent } from './navigation/thirdnavbar/thirdnavbar.component';
+import { DdperkscardComponent } from './sitecomponents/ddperkscard/ddperkscard.component';
+import { SignupwindowComponent } from './sitecomponents/signupwindow/signupwindow.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     TopnavbarComponent,
     SecondnavbarComponent,
-    ThirdnavbarComponent
+    ThirdnavbarComponent,
+    DdperkscardComponent,
+    SignupwindowComponent,
   ],
+  
   imports: [
     BrowserModule,
     AppRoutingModule
