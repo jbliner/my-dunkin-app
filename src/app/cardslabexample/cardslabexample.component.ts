@@ -7,11 +7,12 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CardslabexampleComponent implements OnInit {
   @Input() img: string;
+  @Input() buttonIMG1: string;
+  @Input() buttonIMG2: string;
   @Input() cardTitle: string;
   @Input() desc: string;
   @Input() price: string;
-  @Input() buttonIMG1: string;
-  @Input() buttonIMG2: string;
+  
 
   constructor() {
     this.img = "";
