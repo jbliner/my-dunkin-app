@@ -8,6 +8,10 @@ import { SecondnavbarComponent } from './navigation/secondnavbar/secondnavbar.co
 import { ThirdnavbarComponent } from './navigation/thirdnavbar/thirdnavbar.component';
 import { DdperkscardComponent } from './sitecomponents/ddperkscard/ddperkscard.component';
 import { SignupwindowComponent } from './sitecomponents/signupwindow/signupwindow.component';
+import { CardslabexampleComponent } from './cardslabexample/cardslabexample.component';
+import { CaliforniarewardsComponent } from './sitecomponents/californiarewards/californiarewards/californiarewards.component';
+
+
 
 
 @NgModule({
@@ -18,6 +22,9 @@ import { SignupwindowComponent } from './sitecomponents/signupwindow/signupwindo
     ThirdnavbarComponent,
     DdperkscardComponent,
     SignupwindowComponent,
+    CardslabexampleComponent,
+    CaliforniarewardsComponent,
+
   ],
   
   imports: [

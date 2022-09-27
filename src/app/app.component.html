@@ -33,3 +33,15 @@
 
 <!-- Sign Up Rewards Window-->
 <app-signupwindow></app-signupwindow>
+
+<!-- California Rewards card-->
+<app-californiarewards></app-californiarewards>
+<!--DD Perks Card rework (Data Binding)-->
+<div *ngFor="let x of products">
+
+    <app-cardslabexample img = {{x.img}} price={{x.price}} desc={{x.desc}} cardTitle={{x.cardTitle}}></app-cardslabexample>
+
+</div>
+
+
+

@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { mock_product_list } from './cardslabexample/mock-product-list';
+import { ProductItemModel } from './cardslabexample/product-item.model';
+import { SignupwindowComponent } from './sitecomponents/signupwindow/signupwindow.component';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,23 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hello-world-app';
-}
+
+
+
+
+
+// ADDED FROM LAB EXAMPLE
+
+  products: ProductItemModel[] = []
+  constructor(){
+    for(var x of mock_product_list){
+      console.log(x)
+      this.products.push(x)
+    }
+  }
+  }
+
+
+
+
+
