@@ -11,42 +11,7 @@
 <!--Setup second navigation bar-->
 <app-secondnavbar></app-secondnavbar>
 
-<!--White space-->
-<div>
-    <h6> &nbsp;    </h6>
-</div>
-
-<!--Setup third navigation bar-->
-<app-thirdnavbar></app-thirdnavbar>
-
-<!--White space-->
-<div>
-    <h6> &nbsp;    </h6>
-</div>
-
-
-
-<!--2 ADDITIONAL COMPONENTS (LAB 2)-->
-
-<!--DD Perks Card-->
-<app-ddperkscard></app-ddperkscard>
-
-<!-- Sign Up Rewards Window-->
-<app-signupwindow></app-signupwindow>
-
-<!--White space-->
-<div>
-    <h6> &nbsp;    </h6>
-</div>
-
-<!-- California Rewards card-->
-<app-californiarewards></app-californiarewards>
-<!--DD Perks Card rework (Data Binding)-->
-<div *ngFor="let x of products">
-
-    <app-cardslabexample img = {{x.img}} price={{x.price}} desc={{x.desc}} cardTitle={{x.cardTitle}} buttonIMG1={{x.buttonIMG1}} buttonIMG2={{x.buttonIMG2}}></app-cardslabexample>
-
-</div>
+<router-outlet></router-outlet>
 
 
 

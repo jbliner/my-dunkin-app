@@ -10,23 +10,7 @@ import { SignupwindowComponent } from './sitecomponents/signupwindow/signupwindo
 })
 export class AppComponent {
   title = 'hello-world-app';
-
-
-
-
-
-// ADDED FROM LAB EXAMPLE
-
-  products: ProductItemModel[] = []
-  constructor(){
-    for(var x of mock_product_list){
-      console.log(x)
-      this.products.push(x)
-    }
-  }
-  }
-
-
+}
 
 
 

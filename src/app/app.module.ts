@@ -10,6 +10,13 @@ import { DdperkscardComponent } from './sitecomponents/ddperkscard/ddperkscard.c
 import { SignupwindowComponent } from './sitecomponents/signupwindow/signupwindow.component';
 import { CardslabexampleComponent } from './cardslabexample/cardslabexample.component';
 import { CaliforniarewardsComponent } from './sitecomponents/californiarewards/californiarewards/californiarewards.component';
+import { MenulayoutComponent } from './layout/menulayout/menulayout.component';
+import { HomelayoutComponent } from './layout/homelayout/homelayout.component';
+import { LocationslayoutComponent } from './layout/locationslayout/locationslayout.component';
+import { DeliverylayoutComponent } from './layout/deliverylayout/deliverylayout.component';
+import { DdperkslayoutComponent } from './layout/ddperkslayout/ddperkslayout.component';
+import { DunkincardlayoutComponent } from './layout/dunkincardlayout/dunkincardlayout.component';
+import { ShoplayoutComponent } from './layout/shoplayout/shoplayout.component';
 
 
 
@@ -24,6 +31,13 @@ import { CaliforniarewardsComponent } from './sitecomponents/californiarewards/c
     SignupwindowComponent,
     CardslabexampleComponent,
     CaliforniarewardsComponent,
+    MenulayoutComponent,
+    HomelayoutComponent,
+    LocationslayoutComponent,
+    DeliverylayoutComponent,
+    DdperkslayoutComponent,
+    DunkincardlayoutComponent,
+    ShoplayoutComponent,
 
   ],
   
