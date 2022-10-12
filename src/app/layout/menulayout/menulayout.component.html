@@ -1,3 +1,23 @@
-<p>menulayout works!</p>
+<!-- Navbar on Dropdown-->
 
-<h1>Menu card</h1>
+<nav class="nav justify-content-center">
+    <div class="container-fluid">
+      <a class="navbar" href="#">
+          <button class = "navbutton">ESPRESSO & COFFEE</button>
+          <button class = "navbutton">TEAS & MORE</button>
+          <button class = "navbutton">FROZEN DRINKS</button>
+          <button class = "navbutton">SANDWICHES & MORE</button>
+          <button class = "navbutton">SNACKS & WRAPS</button>
+          <button class = "navbutton">BAGELS & MUFFINS</button>
+          <button class = "navbutton">DONUTS</button>
+          <button class = "navbutton">BREW AT HOME</button>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Menu Layout Components dropdown-->
+  <div *ngFor="let x of items">
+
+    <app-menulayoutaddons menuIMG = {{x.menuIMG}} itemDesc = {{x.itemDesc}}></app-menulayoutaddons>
+
+</div>

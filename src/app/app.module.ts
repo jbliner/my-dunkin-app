@@ -17,6 +17,7 @@ import { DeliverylayoutComponent } from './layout/deliverylayout/deliverylayout.
 import { DdperkslayoutComponent } from './layout/ddperkslayout/ddperkslayout.component';
 import { DunkincardlayoutComponent } from './layout/dunkincardlayout/dunkincardlayout.component';
 import { ShoplayoutComponent } from './layout/shoplayout/shoplayout.component';
+import { MenulayoutaddonsComponent } from './layout/menulayout/menulayoutaddons/menulayoutaddons/menulayoutaddons.component';
 
 
 
@@ -38,6 +39,7 @@ import { ShoplayoutComponent } from './layout/shoplayout/shoplayout.component';
     DdperkslayoutComponent,
     DunkincardlayoutComponent,
     ShoplayoutComponent,
+    MenulayoutaddonsComponent,
 
   ],
   

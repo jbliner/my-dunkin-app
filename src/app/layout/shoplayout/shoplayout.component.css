@@ -1,0 +1,10 @@
+@font-face {
+    font-family: dunkinBold;
+    src: url(src/RockoFLF/RockoUltraFLF-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: dunkinStandard;
+    src: url(src/RockoFLF/RockoFLF.ttf);
+  }
+  

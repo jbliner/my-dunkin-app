@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: dunkinBold;
+    src: url(src/RockoFLF/RockoUltraFLF-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: dunkinStandard;
+    src: url(src/RockoFLF/RockoFLF.ttf);
+  }
+  
+  
+    .signupbutton {
+      background-color: #ffffff;
+      border-style: white;
+      border-color: rgb(17, 16, 16);
+      border-radius: 25px;
+      color: rgb(17, 16, 17);
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: center;
+      font-size: 14px;
+      font-family: 'dunkinBold';
+      display: inline-block;
+      font-size: 14px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .signinbutton {
+      background-color: rgb(200, 54, 98);
+      border-style: rgb(200, 54, 98);
+      border-color: rgb(200, 54, 98);
+      border-radius: 25px;
+      color: rgb(255, 255, 255);
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: center;
+      font-size: 14px;
+      font-family: 'dunkinBold';
+      display: inline-block;
+      font-size: 14px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
