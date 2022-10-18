@@ -18,6 +18,9 @@ import { DdperkslayoutComponent } from './layout/ddperkslayout/ddperkslayout.com
 import { DunkincardlayoutComponent } from './layout/dunkincardlayout/dunkincardlayout.component';
 import { ShoplayoutComponent } from './layout/shoplayout/shoplayout.component';
 import { MenulayoutaddonsComponent } from './layout/menulayout/menulayoutaddons/menulayoutaddons/menulayoutaddons.component';
+import { ThirdmenuComponent } from './thirdmenu/thirdmenu.component';
+import {HttpClientModule} from '@angular/common/http';
+
 
 
 
@@ -40,12 +43,14 @@ import { MenulayoutaddonsComponent } from './layout/menulayout/menulayoutaddons/
     DunkincardlayoutComponent,
     ShoplayoutComponent,
     MenulayoutaddonsComponent,
+    ThirdmenuComponent
 
   ],
   
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

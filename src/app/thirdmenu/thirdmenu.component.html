@@ -1,0 +1,20 @@
+<p *ngIf = "menuInfo == undefined"> Failed fetching menu info </p>
+
+<div *ngIf = "menuInfo != undefined">
+    <div class="container-fluid">
+        <div class="d-flex flex-row justify-content-between">
+            <div class="flex-column">
+                User: {{menuInfo.FirstName}} {{menuInfo.LastName}}
+            </div>
+
+            <div class="flex-column">
+                <a href="mailto: {{menuInfo.mix_id}}@mix.wvu.edu">Mix ID: {{menuInfo.mix_id}}</a>
+            </div>
+
+            <div class="flex-column">
+                <a href={{menuInfo.GitHub}}>GitHub: {{menuInfo.GitHub}} </a>
+            </div>
+
+        </div>
+    </div>
+</div>
