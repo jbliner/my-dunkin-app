@@ -1,3 +1,5 @@
+/**
+
 export const mock_product_list = [
    /**  {
         img: "./assets/ddperksrework.png",
@@ -5,7 +7,7 @@ export const mock_product_list = [
         cardTitle: "BRING ON",
         price: "DD Perks rewards members on every Dunkin' run."
     },
-    */
+  
 
     {
         img: "./assets/Dunkin-Done-Easy.png",
@@ -26,3 +28,4 @@ export const mock_product_list = [
 
 
 ]
+*/

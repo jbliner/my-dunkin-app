@@ -1,3 +1,4 @@
+/**
 export const menu_item_list = [
     {
         menuIMG: "./assets/hot-coffee.png",
@@ -27,3 +28,4 @@ export const menu_item_list = [
 
 
 ]
+*/

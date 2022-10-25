@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { MenuItemModel } from './menu-item.model';
-import { menu_item_list } from './product-list';
+
+/* import { menu_item_list } from './product-list'; */
 
 @Component({
   selector: 'app-menulayoutaddons',
