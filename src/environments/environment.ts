@@ -3,6 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+  firebase: {
+    projectId: 'dunkin-app-98d50',
+    appId: '1:49910006853:web:1026066d65b6ef4fe98f2c',
+    databaseURL: 'https://dunkin-app-98d50-default-rtdb.firebaseio.com',
+    storageBucket: 'dunkin-app-98d50.appspot.com',
+    apiKey: 'AIzaSyAUHFhyB6tFk79dgrjQPcP1CH0hoT0MqBg',
+    authDomain: 'dunkin-app-98d50.firebaseapp.com',
+    messagingSenderId: '49910006853',
+    measurementId: 'G-9QME5G331R',
+  },
   production: false
 };
 

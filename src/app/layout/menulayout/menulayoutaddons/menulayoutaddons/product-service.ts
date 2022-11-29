@@ -1,6 +1,7 @@
 import { HttpClient } from "@angular/common/http"
 import { Injectable } from "@angular/core";
 import { MenuItemModel } from "./menu-item.model"
+import { AngularFireDatabase } from "@angular/fire/compat/database"
 
 @Injectable(
     {providedIn: 'root'}
@@ -9,16 +10,12 @@ export class ProductService{
     private BaseUrl: string = "https://dunkin-app-98d50-default-rtdb.firebaseio.com/my-info/"
     private endPoint: string = "menulayoutaddons.json"
 
-    constructor(private http: HttpClient){
+    constructor(private db: AngularFireDatabase){
 
     }
 
     getProducts(){
-        return this.http.get<MenuItemModel []>(this.BaseUrl + this.endPoint);
-    }
-
-    getOneProduct(index: number){
-        return this.http.get<MenuItemModel []>(this.BaseUrl + "products" + '/' + index + '.json');
+        return this.db.list<MenuItemModel>("my-info/menulayoutaddons").valueChanges();
     }
 
 }

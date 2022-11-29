@@ -94,6 +94,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "hello-world-app:build:production",
+            "firebaseProject": "dunkin-app-98d50",
+            "firebaseHostingSite": "dunkin-app-98d50"
+          }
         }
       }
     }

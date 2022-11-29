@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AddProductComponent } from './add-product/add-product.component';
 import { DdperkslayoutComponent } from './layout/ddperkslayout/ddperkslayout.component';
 import { DeliverylayoutComponent } from './layout/deliverylayout/deliverylayout.component';
 import { DunkincardlayoutComponent } from './layout/dunkincardlayout/dunkincardlayout.component';
@@ -42,6 +43,10 @@ const routes: Routes = [
     path: '',
     component: HomelayoutComponent,
   },
+  {
+    path: 'admin',
+    component: AddProductComponent,
+  }
   
 ];
 

@@ -20,7 +20,11 @@ import { ShoplayoutComponent } from './layout/shoplayout/shoplayout.component';
 import { MenulayoutaddonsComponent } from './layout/menulayout/menulayoutaddons/menulayoutaddons/menulayoutaddons.component';
 import { ThirdmenuComponent } from './thirdmenu/thirdmenu.component';
 import {HttpClientModule} from '@angular/common/http';
-
+import { environment } from 'src/environments/environment.prod';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AngularFireModule} from '@angular/fire/compat';
+import { AddProductComponent } from './add-product/add-product.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -43,15 +47,20 @@ import {HttpClientModule} from '@angular/common/http';
     DunkincardlayoutComponent,
     ShoplayoutComponent,
     MenulayoutaddonsComponent,
-    ThirdmenuComponent
+    ThirdmenuComponent,
+    AddProductComponent
 
   ],
   
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFirestoreModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    FormsModule
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })

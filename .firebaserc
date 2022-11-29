@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "dunkin-app-98d50"
+  },
+  "targets": {
+    "dunkin-app-98d50": {
+      "hosting": {
+        "hello-world-app": [
+          "dunkin-app-98d50"
+        ]
+      }
+    }
   }
 }

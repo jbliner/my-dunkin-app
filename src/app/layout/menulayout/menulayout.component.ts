@@ -5,7 +5,6 @@ import { MenuItemModel } from './menulayoutaddons/menulayoutaddons/menu-item.mod
 
 import { ProductService } from './menulayoutaddons/menulayoutaddons/product-service';
 
-
 @Component({
   selector: 'app-menulayout',
   templateUrl: './menulayout.component.html',
@@ -33,4 +32,5 @@ export class MenulayoutComponent{
   
     })
   }
+  
 }
