@@ -25,6 +25,7 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AngularFireModule} from '@angular/fire/compat';
 import { AddProductComponent } from './add-product/add-product.component';
 import { FormsModule } from '@angular/forms';
+import { AuthComponent } from './auth/auth.component';
 
 
 
@@ -48,7 +49,8 @@ import { FormsModule } from '@angular/forms';
     ShoplayoutComponent,
     MenulayoutaddonsComponent,
     ThirdmenuComponent,
-    AddProductComponent
+    AddProductComponent,
+    AuthComponent
 
   ],
   

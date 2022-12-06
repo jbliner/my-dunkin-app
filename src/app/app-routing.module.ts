@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AddProductComponent } from './add-product/add-product.component';
+import { AuthComponent } from './auth/auth.component';
 import { DdperkslayoutComponent } from './layout/ddperkslayout/ddperkslayout.component';
 import { DeliverylayoutComponent } from './layout/deliverylayout/deliverylayout.component';
 import { DunkincardlayoutComponent } from './layout/dunkincardlayout/dunkincardlayout.component';
@@ -46,6 +47,10 @@ const routes: Routes = [
   {
     path: 'admin',
     component: AddProductComponent,
+  },
+  {
+    path: 'auth',
+    component: AuthComponent
   }
   
 ];
